@@ -84,6 +84,17 @@ body {
   border-radius: 5px;
 
   overflow: hidden;
+  position: relative;
+}
+.layout .layout_container .card .card_image .card_image_tag {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  background: var(--color-dark-orange);
+  color: var(--color-white);
+  font-size: 14px;
+  padding: 6px 24px;
+  border-radius: 5px;
 }
 .layout .layout_container .card .card_image img {
   width: 100%;
